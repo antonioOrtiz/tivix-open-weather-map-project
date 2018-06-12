@@ -1,0 +1,42 @@
+@import 'node_modules/skeleton-scss/scss/skeleton.scss';
+
+// Skeleton Container override
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+// Page styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+body {
+  background: white;
+  font-family: 'Raleway', serif;
+  weight: regular;
+}
+
+h1 {
+  margin: 25px auto 0;
+}
+
+form,
+.weather-display {
+  margin: 25px auto 0;
+  padding: 2%;
+  width: 90%;
+  border: 1px solid #e1e1e1;
+}
+
+button.button-primary {
+}
+
+// Paragraph, images, misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
