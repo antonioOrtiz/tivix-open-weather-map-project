@@ -20,9 +20,9 @@ dataTracker.prototype.showMax = function() {
 };
 
 dataTracker.prototype.showMean = function() {
-  return `Mean temperature: ${this.mean}°`;
+  return `Mean temperature: ${Math.floor(this.mean)}°`;
 };
 
 dataTracker.prototype.showMode = function(mode) {
-  return `Mode: ${this.mode}`;
+  return `Mode: ${this.mode}° (Based on the last 7 days)`;
 };
